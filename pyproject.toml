@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pack-repo-4ai"  
+version = "0.1.0"
+description = "CLI tool to format codebases for DeepSeek R1 and Claude 3.5"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "Allen C. Zhang"}
+]
+dependencies = [
+  "pyperclip",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zwowo1997/pack-repo-4ai"
+
+[project.scripts]
+pack-repo = "pack_repo_4ai.core:main"
