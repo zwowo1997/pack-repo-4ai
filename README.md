@@ -1,5 +1,7 @@
 # 📦 pack-repo-4ai
 
+[![Downloads](https://static.pepy.tech/badge/pack-repo-4ai)](https://pepy.tech/project/pack-repo-4ai)
+
 **Stop copy-pasting files manually.**
 `pack-repo-4ai` is a CLI tool that compresses your codebase into a single, AI-optimized context file and copies it to your clipboard.
 
@@ -28,10 +30,10 @@ When you paste 10 different files into ChatGPT, it gets confused.
 - XML Formatting: Proven to increase accuracy in Reasoning Models.
 
 ## 📝 Options
-# Print to screen instead of copying
+### Print to screen instead of copying
 pack-repo --print
 
-# Scan a specific folder
+### Scan a specific folder
 pack-repo /path/to/my/project
 
 ## License
